@@ -1,0 +1,94 @@
+{
+  "addmod0": {
+    "input": {
+      "code": "0x60026002600108600055",
+      "gas": "0x0186a0",
+      "storage": {}
+    },
+    "output": {
+      "pc": "0x0a",
+      "gas": "0x01386c",
+      "stack": [],
+      "memory": "0x",
+      "storage": {
+        "0x00": "0x01"
+      }
+    }
+  },
+  "addmodDivByZero": {
+    "input": {
+      "code": "0x60006001600408600055",
+      "gas": "0x0186a0",
+      "storage": {}
+    },
+    "output": {
+      "gas": "0x017304",
+      "stack": [],
+      "memory": "0x",
+      "pc": "0x0a",
+      "storage": {}
+    }
+  },
+  "divByNonZero0": {
+    "input": {
+      "code": "0x6002600504600055",
+      "gas": "0x0186a0",
+      "storage": {}
+    },
+    "output": {
+      "gas": "0x013872",
+      "stack": [],
+      "memory": "0x",
+      "pc": "0x08",
+      "storage": {
+        "0x00": "0x02"
+      }
+    }
+  },
+  "mul2": {
+    "input": {
+      "code": "0x6017600002600055",
+      "gas": "0x0186a0",
+      "storage": {}
+    },
+    "output": {
+      "gas": "0x01730a",
+      "stack": [],
+      "memory": "0x",
+      "pc": "0x08",
+      "storage": {}
+    }
+  },
+  "mulmod1_overflow4": {
+    "input": {
+      "code": "0x600560027f800000000000000000000000000000000000000000000000000000000000000109600055",
+      "gas": "0x0f4240",
+      "storage": {}
+    },
+    "output": {
+      "gas": "0x0ef40c",
+      "stack": [],
+      "memory": "0x",
+      "pc": "0x29",
+      "storage": {
+        "0x00": "0x03"
+      }
+    }
+  },
+  "mstore_mload0": {
+    "input": {
+      "code": "0x6017600052600051600155",
+      "gas": "0x0186a0",
+      "storage": {}
+    },
+    "output": {
+      "gas": "0x01386e",
+      "stack": [],
+      "memory": "0x0000000000000000000000000000000000000000000000000000000000000017",
+      "pc": "0x0b",
+      "storage": {
+        "0x01": "0x17"
+      }
+    }
+  }
+}
